@@ -19,4 +19,13 @@
 @import "./home/parceiros.css";
 
 /* Depoimento */
-@import url("./home/depoimento.css");
+@import "./home/depoimento.css";
+
+/* Seguros */
+@import "./seguros/seguros.css";
+
+/* Footer */
+@import "./global/footer.css";
+
+/* Termos */
+@import "./termos/termos.css";
