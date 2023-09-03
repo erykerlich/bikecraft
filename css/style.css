@@ -17,3 +17,6 @@
 
 /* Parceiros */
 @import "./home/parceiros.css";
+
+/* Depoimento */
+@import url("./home/depoimento.css");
