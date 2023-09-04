@@ -29,3 +29,11 @@
 
 /* Termos */
 @import "./termos/termos.css";
+
+/* Bicicletas */
+@import "./bicicletas/bicicletas.css";
+@import "./bicicleta/bicicleta.css";
+
+/* Seguros */
+@import "./seguros/vantagens.css";
+@import "./seguros/perguntas.css";
