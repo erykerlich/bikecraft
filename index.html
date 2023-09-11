@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bicicletas | Bikcraft</title>
+    <link rel="preload" href="css/style.css" as="style" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +21,14 @@
   <body>
     <header class="header-bg">
       <div class="header">
-        <a href="./"><img src="img/bikcraft.svg" alt="Bikcraft" srcset="" /></a>
+        <a href="./"
+          ><img
+            src="img/bikcraft.svg"
+            width="136"
+            height="32"
+            alt="Bikcraft"
+            srcset=""
+        /></a>
         <nav aria-label="primaria">
           <ul class="header-menu font-1-m cor0">
             <li>
@@ -49,9 +57,17 @@
           </p>
           <a class="botao" href="./bicletas.html">Escolha a sua</a>
         </div>
-        <div>
-          <img src="img/fotos/introducao.jpg" alt="Bicicleta eletrica preta." />
-        </div>
+        <picture>
+          <source
+            media="(max-width: 800px)"
+            srcset="../img/bicicletas/nimbus.jpg"
+          />
+          <img
+            src="./img/fotos/introducao.jpg"
+            
+            alt="Bicicleta eletrica preta."
+          />
+        </picture>
       </div>
     </main>
 
@@ -257,5 +273,6 @@
         </p>
       </div>
     </footer>
+   <script src="./js/script.js"></script>
   </body>
 </html>
